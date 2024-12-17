@@ -1,5 +1,7 @@
 bouncing DVD logo in pure [Game Boy assembly](https://rgbds.gbdev.io/)
 
+![](animation.gif)
+
 ### Why?
 
 Boredom
