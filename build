@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rgbasm -o gameboy-dvd-logo.o gameboy-dvd-logo.asm
+rgblink -o gameboy-dvd-logo.gb gameboy-dvd-logo.o
+rgbfix -v -p 0xFF gameboy-dvd-logo.gb
